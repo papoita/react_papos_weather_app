@@ -1,0 +1,78 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+#weather-box {
+  border: 2px solid gray;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 20px;
+}
+body {
+  background-size: cover;
+  width: auto;
+  height: auto;
+  font-family: "Montaga";
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.7;
+}
+
+.Name {
+  font-size: 50px;
+  background-color: transparent;
+  text-align: center;
+  display: block;
+  color: rgba(128, 128, 128);
+  padding: 20px;
+}
+.Location {
+  font-size: 50px;
+  opacity: 0.9;
+  color: rgb(62, 59, 59);
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.Date {
+  font-size: 20px;
+  margin: 30px 0;
+  color: black;
+  text-align: left;
+}
+
+.conditions {
+  font-size: 20px;
+  margin: 0px;
+  color: grey;
+  text-align: left;
+}
+.wind {
+  font-size: 20px;
+  margin: 0px;
+  color: grey;
+  text-align: left;
+}
+.humidity {
+  font-size: 20px;
+  margin: 0px;
+  color: grey;
+  text-align: left;
+}
+h4 {
+  font-size: 20px;
+}
+.Temp {
+  line-height: 0px;
+  font-size: 80px;
+}
+#celcius {
+  font-size: 30px;
+}
