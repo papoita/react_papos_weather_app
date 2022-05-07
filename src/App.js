@@ -12,14 +12,14 @@ export default function App() {
     <div className="App">
       <h1 className="Name">Papo's Weather App</h1>
       <Form />
-      <Location />
+      <Location city="Ottawa" />
       <Date />
       <div class="row">
         <div class="col-6">
           <Weather />
         </div>
         <div class="col-6">
-          <Temp />
+          <Temp temperature={23} />
         </div>
       </div>
     </div>
